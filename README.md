@@ -4,7 +4,7 @@ So people either rech out FOR help or reach out TO help.
 This website will be created using laravel and a mysql database.
 
 We have 3 users type. 
-The admins who will be in charge of deleting users (smammers).
+The admins who will be in charge of deleting users (scammers).
 The users who are in need of volunteers or giving people oportunities to volunteer.
 The volnteers who are looking to contributes.
 
