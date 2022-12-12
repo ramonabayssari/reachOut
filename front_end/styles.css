@@ -1,0 +1,60 @@
+.font{
+    font-family: sans-serif;
+}
+.flex{
+    display: flex; 
+}
+
+.center{
+    justify-content: center;
+}
+
+.bk_img1{
+    background-image:url("assets/13.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;;
+}
+
+.item{
+    width: 30%;
+    height: 30%;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bk_w{
+    background-color: white;
+}
+
+.main-container{
+    padding: 10% 10%;
+}
+
+.pa{
+    padding: 10px 30px;
+}
+
+.edge{
+    border-radius: 25px;
+}
+
+.img_size1{
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.f-gray{
+    color: gray;
+}
+
+p{
+    line-height: 1.75;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
