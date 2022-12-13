@@ -136,5 +136,8 @@ input[type=text], input[type=password] {
 }
 
 .bk-img3{
-    background-image: url("assets/14.png");
+    background-image: url("assets/15.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
