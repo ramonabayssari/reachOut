@@ -30,7 +30,13 @@
     background-attachment: fixed;
     background-size: cover;
 }
-
+.item2{
+    width: 40%;
+    height: 30%;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .bk_w{
     background-color: white;
 }
