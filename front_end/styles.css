@@ -44,7 +44,7 @@
 }
 
 .edge{
-    border-radius: 25px;
+    border-radius: 12px;
 }
 
 .img_size1{
@@ -91,6 +91,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    border-radius: 8px;
   }
   
 
@@ -102,7 +103,8 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
     width: 50%;
-  }
+    border-radius: 8px;
+}
   
   button:hover {
     opacity: 0.8;
@@ -123,4 +125,10 @@ input[type=text], input[type=password] {
     margin-left: 30%;
     margin-top: 0%;
     padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.bk-img3{
+    background-image: url("assets/14.png");
 }
