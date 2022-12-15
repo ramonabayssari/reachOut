@@ -174,3 +174,10 @@ input[type=text], input[type=password] {
     margin: 10px 0;
     border-radius: 8px;
 }
+
+.bk-hands{
+    background-image: url("assets/hands_bk.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
