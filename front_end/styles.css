@@ -141,3 +141,36 @@ input[type=text], input[type=password] {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    background-color: #94D6DF;
+    height: 100%;
+}
+
+.logo {
+    width: 200px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav-button {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.separator {
+    margin: 10px 0;
+    border-radius: 8px;
+}
