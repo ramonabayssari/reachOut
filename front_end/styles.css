@@ -287,9 +287,9 @@ input[type=text], input[type=password] {
 .marg{
     margin-left: 300px;
 }
-button {
+.btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: fit-content;
+    width: 20%;
   }

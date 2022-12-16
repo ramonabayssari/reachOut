@@ -9,7 +9,7 @@
 </head>
 
 <body class=" font" >
-<div class="sidebar " id="side-bar">
+<div class="sidebar " id="side-bar" >
     <div class="logo">
         <img class="logo" src="assets/4.png" alt="logo"/>
     </div>
@@ -82,30 +82,20 @@
    </div>
 
 </div> <!-- end volunteer's profile-->
-
+<div class="btn">
+    <button id="btn1"  class="category-button flex">Print PDF</button>
+</div>
 </body>
 
 <script>
+const btn1= document.getElementById("btn1")
+
 function printPDF() {
-  // Get the div to be removed
-  var divToRemove = document.getElementById("side-bar");
-
-  // Hide the div before printing
+  const divToRemove = document.getElementById("side-bar");
   divToRemove.style.display = "none";
-
   window.print();
-
-  // Show the div again after printing
   divToRemove.style.display = "block";
 }
+btn1.addEventListener("click", printPDF);
 
-// Create the button
-var button = document.createElement("button");
-button.innerHTML = "Print PDF";
-
-// Add an event listener to the button that calls the printPDF function when clicked
-button.addEventListener("click", printPDF);
-
-// Append the button to the body of the page
-document.body.appendChild(button);
 </script>
