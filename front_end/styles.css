@@ -208,3 +208,27 @@ input[type=text], input[type=password] {
     font-size: 20;
     margin-left: 5%;
   }
+
+  .vol-event{
+    width: 70%;
+    background-color: #CEE9ED;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: 5%;
+    padding: 2%;
+    font-size: 18;
+    color: darkgrey;
+    line-height: 1.75;
+  }
+  .sub{
+    background-color:darkgrey;
+    width: 25%;
+    font-size: 15;
+    margin-left: 5%;
+  }
+
+  .vol-event-f{
+    color: gray;
+    font-weight: bold;
+    padding-right: 2%;
+  }
