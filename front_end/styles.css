@@ -231,4 +231,59 @@ input[type=text], input[type=password] {
     color: gray;
     font-weight: bold;
     padding-right: 2%;
+    padding-left: 1%;
   }
+
+  .profile{
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dir-column{
+    flex-direction: column;
+}
+.align-item-center{
+    align-items: center;
+}
+
+.profile-titles-f{
+    color: gray;
+    font-weight: bold;
+    padding-right: 2%;
+    font-size: 22;
+  }
+
+.profile-f{
+    color: darkgray;
+    font-size: 18;
+    line-height: 1.75;
+   
+}
+.name-f{
+    margin-top:2%;
+    color: #004AAD;
+    font-weight: 800;
+    font-size: 30;
+}
+.occ-f{
+    color: #2260b1;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.vol-box{
+    border: gray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-top: 2%;
+    width: 70%;
+}
+
+.marg{
+    margin-left: 300px;
+}
