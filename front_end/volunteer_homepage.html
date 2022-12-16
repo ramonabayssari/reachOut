@@ -16,4 +16,35 @@
     </div>
 </div>
 
+
+<button class="category-button">Volunteering Category</button>
+
+<div class="category-box">
+  <form>
+    <input type="checkbox" class="category" name="category" value="community">Community Project<br>
+    <input type="checkbox" class="category" name="category" value="hospital">In Hospitals<br>
+    <input type="checkbox" class="category" name="category" value="green">Green volunteering<br>
+    <input type="checkbox" class="category" name="category" value="sport">Sports Volunteering<br>
+    <input type="checkbox" class="category" name="category" value="animal">Work with Animals<br>
+    <button class="submit-box" type="submit" class="submit-button">Submit</button>
+  </form>
+  
+</div>
+
+
 </body>
+
+
+<script>
+const categoryButton = document.querySelector('.category-button');
+const categoryBox = document.querySelector('.category-box');
+
+categoryButton.addEventListener('click', function() {
+  if (categoryBox.style.display === "none") {
+    categoryBox.style.display = "block";
+  } else {
+    categoryBox.style.display = "none";
+  }
+});
+
+</script>
