@@ -1,14 +1,19 @@
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css"> 
+</head>
 
 <body class="bk-hands font">
 <div class="sidebar ">
     <div class="logo">
         <img class="logo" src="assets/4.png" alt="logo"/>
     </div>
-    <div class="nav-buttons font">
+    <div class="nav-buttons font flex">
         <a href="#" class="nav-button separator">Home</a>
         <a href="#" class="nav-button separator">Profile</a>
         <a href="#" class="nav-button separator">Logout</a>
@@ -17,9 +22,9 @@
 </div>
 
 
-<button class="category-button">Volunteering Category</button>
+<button class="category-button flex">Volunteering Category</button>
 
-<div class="category-box">
+<div class="category-box flex">
   <form>
     <input type="checkbox" class="category" name="category" value="community">Community Project<br>
     <input type="checkbox" class="category" name="category" value="hospital">In Hospitals<br>
@@ -31,6 +36,49 @@
   
 </div>
 
+<div class="flex flex-wrap"> <!-- WRAP of all volunteering event application and description-->
+
+    <div class="vol-event flex-wrap"> <!--volunteering event application and description-->
+        
+        <div class="flex">
+            <div class="vol-event-f">Profile: </div>
+            <div> <a href="#">Check it out.</a></div>
+        </div>
+
+        <div class="flex">
+            <div class="vol-event-f">Category: </div>
+            <div> fnnlnljwn</div>
+        </div>
+
+        <div class="flex">
+            <div class="vol-event-f">Description: </div>
+            <div> ewifhoehfjebf</div>
+        </div class="flex">
+        
+        <div class="flex">
+            <div class="vol-event-f">Date: </div>
+            <div> fewnfkenjebn</div>
+        </div>
+
+        <div class="flex">
+            <div class="vol-event-f">Time:</div>
+            <div> fjwnejfbkjbf</div>
+        </div>
+
+        <div>
+            <form class="flex vol-event-f">
+            
+                <input type="checkbox" class="application" name="application" value="aplicaton"> <br>Apply<br>
+            
+                <br><button class="sub" type="submit" class="submit-button">Submit Application</button>
+            
+            </form>
+        </div>
+    </div> <!-- end volunteering event application and description-->
+
+    
+
+</div> <!-- end WRAP of all volunteering event application and description-->
 
 </body>
 
