@@ -16,6 +16,13 @@ return new class extends Migration
         Schema::create('volunteering_events', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->id("company_id");
+            $table->string("event_description");
+            $table->int("num_people_needed");
+            $table->date("date");
+            $table->time("time");
+            $table->string("category");
+            $table->string("location");
         });
     }
 

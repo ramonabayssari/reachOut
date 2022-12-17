@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('volunteers', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->id("user_id");
         });
     }
 
