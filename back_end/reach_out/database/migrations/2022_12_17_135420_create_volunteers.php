@@ -17,6 +17,9 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->id("user_id");
+            $table->string("occupatation");
+            $table->string("resume");
+            $table->images("profile_pic");
         });
     }
 
