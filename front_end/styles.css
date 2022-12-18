@@ -1,0 +1,295 @@
+.font{
+    font-family: sans-serif;
+}
+.flex{
+    display: flex; 
+}
+
+.center{
+    justify-content: center;
+}
+
+.bk_img1{
+    background-image:url("assets/13.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;;
+}
+
+.bk_img2{
+    background-image:url("assets/8.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.item{
+    width: 30%;
+    height: 30%;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.item2{
+    width: 40%;
+    height: 30%;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bk_w{
+    background-color: white;
+}
+
+.main-container{
+    padding: 10% 10%;
+}
+
+.pa{
+    padding: 10px 30px;
+}
+
+.edge{
+    border-radius: 12px;
+}
+
+.img_size1{
+    width: 50%;
+    height: 12%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    margin-top: 0%;
+}
+
+.f-gray{
+    color: gray;
+}
+
+.f-blue{
+    color:#004AAD ;
+}
+
+p{
+    line-height: 1.75;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.closer{
+    margin-bottom: 0%;
+    margin-top: 15%;
+}
+
+.closer2{
+    margin-top: 0%;
+    padding-top: 3%;
+}
+
+.bk_blue{
+    background-color: #94D6DF;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+
+  button {
+    background-color: #004AAD;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 8px;
+}
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .dir-column{
+    flex-direction: column;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.gif-size{
+    height: 30%;
+    width: 40%;
+    margin-bottom: 0%;
+    margin-left: 30%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.bk-img3{
+    background-image: url("assets/15.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    background-color: #94D6DF;
+    height: 100%;
+}
+
+.logo {
+    width: 200px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nav-button {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.separator {
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.bk-hands{
+    background-image: url("assets/hands_bk.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.category-button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20;
+    font-weight: bold;
+  }
+  
+  .category-box {
+    display: none;
+    background-color:#94D6DF;
+    text-align: left;
+    padding-left: 20%;
+    width: 30%;
+    margin-left: 25%;
+    border-radius: 12px;
+    font-size: 18;
+    color: white;
+  }
+  
+  .submit-box{
+    width: 25%;
+    background-color: #004AAD;
+    text-align: center;
+    font-size: 20;
+    margin-left: 5%;
+  }
+
+  .vol-event{
+    width: 70%;
+    background-color: #CEE9ED;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: 5%;
+    padding: 2%;
+    font-size: 18;
+    color: darkgrey;
+    line-height: 1.75;
+  }
+  .sub{
+    background-color:darkgrey;
+    width: 25%;
+    font-size: 15;
+    margin-left: 5%;
+  }
+
+  .vol-event-f{
+    color: gray;
+    font-weight: bold;
+    padding-right: 2%;
+    padding-left: 1%;
+  }
+
+  .profile{
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dir-column{
+    flex-direction: column;
+}
+.align-item-center{
+    align-items: center;
+}
+
+.profile-titles-f{
+    color: gray;
+    font-weight: bold;
+    padding-right: 2%;
+    font-size: 22;
+  }
+
+.profile-f{
+    color: darkgray;
+    font-size: 18;
+    line-height: 1.75;
+   
+}
+.name-f{
+    margin-top:2%;
+    color: #004AAD;
+    font-weight: 800;
+    font-size: 30;
+}
+.occ-f{
+    color: #2260b1;
+}
+
+.left-text{
+    text-align: left;
+}
+
+.vol-box{
+    border: gray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-top: 2%;
+    width: 70%;
+}
+
+.marg{
+    margin-left: 300px;
+}
+.btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 20%;
+  }
