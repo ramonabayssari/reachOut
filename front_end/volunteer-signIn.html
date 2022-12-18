@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 
-<script src="functions.js"></script>
+
 
 <body class=" bk-img3 font">
    
@@ -14,13 +14,13 @@
     
                 <div class="center flex dir-column  align-item-center">
 
-                    <label for="unameL"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" id="unameL" required>
+                    <label for="emailL"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="emailL" id="emailL" required>
     
                     <label for="pswL"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" id="pswL" required>
+                    <input type="password" placeholder="Enter Password" name="pswL" id="pswL" required>
     
-                    <button type="submit">SignIn</button>
+                    <button type="submit" id="login_sub">SignIn</button>
                     
                 </div>
             </form>
@@ -31,3 +31,6 @@
     </div> <!--end main div-->
 </body>
  
+<!-- <script src="functions.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+<script src="scripts.js"></script>
