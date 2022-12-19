@@ -16,9 +16,9 @@ return new class extends Migration
         Schema::create('applies_for', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->int("volunteering_event_id");
-            $table->int("volunteer_id");
-            $table->int("is_done");
+            $table->integer("volunteering_event_id");
+            $table->integer("volunteer_id");
+            $table->integer("is_done");
         });
     }
 
