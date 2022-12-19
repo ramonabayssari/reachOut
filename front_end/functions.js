@@ -122,6 +122,53 @@
     })
     }
 
+    //----------------------------------------------------------------------------------------
+    pages.load_Csignup = () =>{
+        const hands= document.getElementById("hands");
+        let email_= document.getElementById("email");
+        const name=document.getElementById("cname");
+        const psw=document.getElementById("psw");
+        const about=document.getElementById("about");
+        const loc=document.getElementById("loc");
+
+        email_.addEventListener("mouseover", function(){
+            hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
+        })
+        email_.addEventListener("mouseout", function(){
+            hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
+        })
+    
+    
+        name.addEventListener("mouseover", function(){
+            hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
+        })
+        name.addEventListener("mouseout", function(){
+            hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
+        })
+    
+        psw.addEventListener("mouseover", function(){
+            hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
+        })
+        psw.addEventListener("mouseout", function(){
+            hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
+        })
+    
+        about.addEventListener("mouseover", function(){
+            hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
+        })
+        about.addEventListener("mouseout", function(){
+            hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
+        })
+    
+        loc.addEventListener("mouseover", function(){
+            hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
+        })
+        loc.addEventListener("mouseout", function(){
+            hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
+        })        
+    }
+
+
     //-----------------------------------------------------------------------------------------
     pages.load_homepage= () =>{
         const categoryButton = document.querySelector('.category-button');
