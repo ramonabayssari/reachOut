@@ -1,17 +1,17 @@
+
 let email= document.getElementById("emailL")
 let pass= document.getElementById("pswL")
 let subLogin = document.getElementById("login_sub")
-console.log(subLogin)
 
 const base_url="Http://localhost:8000/api/"
 
-const pages= []
+const pages= {}
 
-pages.postAPI = async(api_url, auth, api_token = null) => {  
+pages.postAPI = async(api_url, data, api_token = null) => {  
     try {
         return await axios.post(
             api_url, 
-            auth,
+            data,
             {
                 headers:{
                     'Authorization': `Bearer ${api_token}`
@@ -27,9 +27,27 @@ pages.postAPI = async(api_url, auth, api_token = null) => {
 subLogin.addEventListener("click", async function(){
     const signin_url= base_url+"auth/login"
     const auth = new FormData()
-    auth.append("email",email)
-    auth.append("pass", pass)
+    const e= email.value
+    const p= pass.value
+
+    auth.append("email",e)
+    auth.append("password", p)
+    console.log("after auth")
+
     const response= await pages.postAPI(signin_url, auth)
+    alert(response)
+    console.log(response)
+
+    if(response){
+        alert('if')
+        console.log(response)
+        
+      }
+      else{
+        console.log("inco")
+        alert('else')
+      }
+
 })
 
 
