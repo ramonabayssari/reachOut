@@ -16,10 +16,10 @@ return new class extends Migration
         Schema::create('volunteers', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string("user_id");
+            $table->int("user_id");
             $table->string("occupatation");
             $table->string("resume");
-            $table->images("profile_pic");
+            $table->string("profile_pic");
         });
     }
 

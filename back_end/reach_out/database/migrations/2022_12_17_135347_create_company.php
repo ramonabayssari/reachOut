@@ -19,7 +19,7 @@ return new class extends Migration
             $table->id("user_id");
             $table->string("about");
             $table->string("location");
-            $table->images("logo");
+            $table->string("logo");
         });
     }
 
