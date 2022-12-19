@@ -10,17 +10,12 @@
 }
 
 .bk_img1{
-<<<<<<< Updated upstream
     background-image:url("assets/13.png");
-=======
-    background-image:url("assets/bk-img.png");
->>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;;
 }
 
-<<<<<<< Updated upstream
 .bk_img2{
     background-image:url("assets/8.png");
     background-repeat: no-repeat;
@@ -28,8 +23,6 @@
     background-size: cover;
 }
 
-=======
->>>>>>> Stashed changes
 .item{
     width: 30%;
     height: 30%;
@@ -37,7 +30,6 @@
     background-attachment: fixed;
     background-size: cover;
 }
-<<<<<<< Updated upstream
 .item2{
     width: 40%;
     height: 30%;
@@ -45,9 +37,6 @@
     background-attachment: fixed;
     background-size: cover;
 }
-=======
-
->>>>>>> Stashed changes
 .bk_w{
     background-color: white;
 }
@@ -61,24 +50,14 @@
 }
 
 .edge{
-<<<<<<< Updated upstream
     border-radius: 12px;
-=======
-    border-radius: 25px;
->>>>>>> Stashed changes
 }
 
 .img_size1{
     width: 50%;
-<<<<<<< Updated upstream
     height: 12%;
     margin-left: 25%;
     margin-bottom: 2%;
-=======
-    height: 20%;
-    margin-left: 25%;
-    margin-bottom: 0%;
->>>>>>> Stashed changes
     margin-top: 0%;
 }
 
@@ -86,19 +65,15 @@
     color: gray;
 }
 
-<<<<<<< Updated upstream
 .f-blue{
     color:#004AAD ;
 }
 
-=======
->>>>>>> Stashed changes
 p{
     line-height: 1.75;
 }
 .flex-wrap{
     flex-wrap: wrap;
-<<<<<<< Updated upstream
 }
 
 .closer{
@@ -318,6 +293,3 @@ input[type=text], input[type=password] {
     right: 20px;
     width: 20%;
   }
-=======
-}
->>>>>>> Stashed changes
