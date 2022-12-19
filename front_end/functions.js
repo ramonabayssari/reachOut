@@ -162,9 +162,13 @@
 
     pages.load_Chomepage= () =>{
         const profile=document.getElementById("profile")
-        
+        const b= document.getElementById("btn")
+
         profile.addEventListener("click",function(){
             window.location.replace("company_profilepage.html");
+        })
+        b.addEventListener("click",function(){
+            window.location.replace("newevent.html");
         })
     }
 
@@ -172,13 +176,10 @@
 
     pages.load_Cprofilepage=()=>{
         const home= document.getElementById("home")
-        const btn1= document.getElementById("btn1")
-
+       
         home.addEventListener("click", function(){
             window.location.replace("company_homepage.html");
         })
 
-        bnt1.addEventListener("click",function(){
-            window.location.replace("newevent.html");
-        })
+
     }
