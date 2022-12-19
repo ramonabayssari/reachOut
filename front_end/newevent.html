@@ -1,0 +1,41 @@
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+
+
+
+<body class=" bk-hands font">
+   
+
+    <div class="main-container  "> <!--main div-->
+        <div class="bk_blue f-blue flex dir-column  align-item-center edge">
+            <br>
+            <form class="item2 pa" >
+                <div class=" flex dir-column  ">
+                    <label for="desc" ><b>Decription</b></label>
+                    <input type="text" placeholder="Enter Description" id="desc" required>
+    
+                    <label for="date"><b>Date</b></label>
+                    <input type="date"  id="date" required>
+    
+                    <label for="time"><b>Time</b></label>
+                    <input type="time"  id="time" required>
+    
+                    <label for="about"><b>About You</b></label>
+                    <input type="text" placeholder="About You" id="about" required>
+    
+                    <label for="occ"><b>Your occupation</b></label>
+                    <input type="text" placeholder="Your occupation" id="occ" required>
+    
+    
+                    <button type="submit">Create event</button>
+                    
+                </div>
+            </form>
+                    <br>
+                    <br>
+        </div>
+    </div> <!--end main div-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+    <script src="functions.js"></script>
+    <script>pages.loadFor("signup")</script>
+</body>
+ 
