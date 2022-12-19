@@ -18,6 +18,18 @@
         }
         
     }
+
+    pages.getAPI = async(api_url) => { 
+
+        try{
+      
+            return await axios(api_url)
+      
+        }catch(error){
+      
+            console.log("Error from linking (GET)", error)
+        }
+      }
     
     pages.loadFor = (page) => { 
         eval("pages.load_" + page + "();")
