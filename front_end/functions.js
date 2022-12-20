@@ -37,23 +37,21 @@
     
       
       const hands= document.getElementById("hands");
-      let email_= document.getElementById("email");
+      let email= document.getElementById("email");
       const fullname=document.getElementById("fullname");
       const psw=document.getElementById("psw");
       const about=document.getElementById("about");
       const occ=document.getElementById("occ");
+      const buttonsignin=document.getElementById("signinbut")
 
       pages.load_signup = () =>{
-        const api_url = base_url + "/auth/login"
 
-        email_.addEventListener("mouseover", function(){
+        email.addEventListener("mouseover", function(){
             hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
         })
-        email_.addEventListener("mouseout", function(){
+        email.addEventListener("mouseout", function(){
             hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
         })
-    
-       
     
         fullname.addEventListener("mouseover", function(){
             hands.innerHTML='<img src="assets/signup.gif" class="gif-size center-gif">';
@@ -81,7 +79,37 @@
         })
         occ.addEventListener("mouseout", function(){
             hands.innerHTML='<img src="assets/signup.png" class="gif-size center-gif">';
-        })        
+        })   
+        
+        buttonsignin.addEventListener("click", async function(){
+
+            const signup_url= base_url+"auth/register"
+
+            let auth = new FormData()
+            const e= email.value
+            const p= psw.value
+            const n= fullname.value
+
+            auth.append("name",n)
+            auth.append("email",e)
+            auth.append("password", p)
+           
+            const response= await pages.postAPI(signup_url, auth)
+            alert(response)
+            console.log(response.status)
+        
+            if(response){
+                alert('if')
+                console.log(response)
+                window.location.replace("volunteer_profilepage.html");
+                
+              }
+              else{
+                console.log("inco")
+                alert('else')
+              }
+        
+        })
     }
 
     
@@ -113,17 +141,34 @@
         const auth = new FormData()
         const e= emailL.value
         const p= pswL.value
-    
+
         auth.append("email",e)
         auth.append("password", p)
-    
-        const response= await pages.postAPI(signin_url, auth)
-        alert(response)
+
+        
+        //let response= await pages.postAPI(signin_url, auth)
+
+        await axios({
+            method: "postAPI",
+            url:base_url +"auth/login",
+            data: auth,
+            headers: { "Content-Type": "multipart/form-data" },
+          })
+        .then(function(response){
+            const test = response;
+             list_login = response.data;
+             console.log(list_login)
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+        alert(response.status)
         console.log(response)
     
         if(response){
             alert('if')
             console.log(response)
+            window.location.replace("volunteer_profilepage.html");
             
           }
           else{
