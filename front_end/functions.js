@@ -287,3 +287,15 @@
 
 
     }
+
+    //--------------------------------------------------------------------------------------------------------
+    
+    pages.load_modes=()=>{
+        const btn = document.getElementById("modes")
+        const element = document.body
+        btn.addEventListener("click", function(){
+            element.classList.toggle("dark-mode")
+        })
+
+    }
+   

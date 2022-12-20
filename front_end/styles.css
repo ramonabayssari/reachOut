@@ -293,3 +293,11 @@ input[type=text], input[type=password] {
     right: 20px;
     width: 20%;
   }
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .modes{
+    width: fit-content;
+    margin-left: 90%;
+  }
